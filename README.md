@@ -1,4 +1,4 @@
 # Opencv
 ## HelloCV
-- first practice file of open cv!
-- basic file like "Hello World!"
+- First practice file of open cv!
+- Simple code to print "Hello CV!" and picture

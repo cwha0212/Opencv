@@ -12,29 +12,43 @@ int main(){
 }
 
 void hough_line_segments(){
-	Mat src = imread("card.bmp", IMREAD_GRAYSCALE);
+	VideoCapture cap(0);
 
-	if(src.empty()){
-		cerr << "File load failed" << endl;
-		return;
+	if(!cap.isOpened()){
+		cerr << "Camera open failed!" << endl;
+		return ;
 	}
+	Mat src;
+	while (true){
+		cap >> src;
+		if(src.empty())
+			break;
+		Mat sharp;
+		Mat calc;
+		Mat edge;
+		GaussianBlur(src, sharp, Size(), 5);
 
-	Mat edge;
-	Canny(src, edge, 200, 220);
+		float alpha = 1.f;
+		calc = (1+alpha) * src - alpha*sharp;
 
-	vector<Vec4i> lines;
-	HoughLinesP(edge, lines, 1, CV_PI / 180, 90, 40, 2);
+		Canny(calc, edge, 50, 200);
 
-	Mat dst;
-	cvtColor(edge, dst, COLOR_GRAY2BGR);
+		vector<Vec4i> lines;
+		HoughLinesP(edge, lines, 1, CV_PI / 180, 90, 40, 2);
 
-	for (Vec4i l : lines){
-		line(dst, Point(l[0], l[1]), Point(l[2], l[3]), Scalar(0,0,255), 1, LINE_AA);
+		Mat dst;
+		cvtColor(edge, dst, COLOR_GRAY2BGR);
+
+		for (Vec4i l : lines){
+			line(dst, Point(l[0], l[1]), Point(l[2], l[3]), Scalar(0,0,255), 1, LINE_AA);
+		}
+
+		imshow("src", src);
+		imshow("calc", calc);
+		imshow("dst", dst);
+
+		if(waitKey(10)==27)
+			break;
 	}
-
-	imshow("src", src);
-	imshow("dst", dst);
-
-	waitKey();
 	destroyAllWindows();
 }

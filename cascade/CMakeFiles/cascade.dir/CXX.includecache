@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/cwha0212/examples_opencv/006939/ch13/cascade/main.cpp
+/home/cwha0212/Opencv_test/cascade/main.cpp
 opencv2/opencv.hpp
-/home/cwha0212/examples_opencv/006939/ch13/cascade/opencv2/opencv.hpp
+/home/cwha0212/Opencv_test/cascade/opencv2/opencv.hpp
 iostream
 -
 

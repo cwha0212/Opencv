@@ -21,15 +21,12 @@ void detect_face()
 
 	while (true){
 		Mat src;
-		Mat frame;
 		cap >> src;
-		cap >> frame;
 
 		if (src.empty()) {
 			cerr << "Image load failed!" << endl;
 			return;
 		}
-		imshow("frame", frame);
 
 		CascadeClassifier classifier("haarcascade_frontalface_default.xml");
 
@@ -46,7 +43,6 @@ void detect_face()
 		}
 
 		imshow("src", src);
-		imshow("frame", frame);
 		if(waitKey(10)==27){
 			break;
 		}

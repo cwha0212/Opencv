@@ -1,0 +1,3 @@
+/home/cwha0212/Opencv_test/corners/CMakeFiles/rebuild_cache.dir
+/home/cwha0212/Opencv_test/corners/CMakeFiles/edit_cache.dir
+/home/cwha0212/Opencv_test/corners/CMakeFiles/corners.dir

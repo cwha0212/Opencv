@@ -1,3 +1,3 @@
-/home/cwha0212/examples_opencv/006939/ch13/cascade/CMakeFiles/rebuild_cache.dir
-/home/cwha0212/examples_opencv/006939/ch13/cascade/CMakeFiles/edit_cache.dir
-/home/cwha0212/examples_opencv/006939/ch13/cascade/CMakeFiles/cascade.dir
+/home/cwha0212/Opencv_test/cascade/CMakeFiles/rebuild_cache.dir
+/home/cwha0212/Opencv_test/cascade/CMakeFiles/edit_cache.dir
+/home/cwha0212/Opencv_test/cascade/CMakeFiles/cascade.dir

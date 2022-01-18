@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cwha0212/examples_opencv/006939/ch13/cascade
+CMAKE_SOURCE_DIR = /home/cwha0212/Opencv_test/cascade
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cwha0212/examples_opencv/006939/ch13/cascade
+CMAKE_BINARY_DIR = /home/cwha0212/Opencv_test/cascade
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -74,14 +74,14 @@ clean: CMakeFiles/cascade.dir/clean
 CMakeFiles/cascade.dir/all:
 	$(MAKE) -f CMakeFiles/cascade.dir/build.make CMakeFiles/cascade.dir/depend
 	$(MAKE) -f CMakeFiles/cascade.dir/build.make CMakeFiles/cascade.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cwha0212/examples_opencv/006939/ch13/cascade/CMakeFiles --progress-num=1,2 "Built target cascade"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cwha0212/Opencv_test/cascade/CMakeFiles --progress-num=1,2 "Built target cascade"
 .PHONY : CMakeFiles/cascade.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/cascade.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cwha0212/examples_opencv/006939/ch13/cascade/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cwha0212/Opencv_test/cascade/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/cascade.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cwha0212/examples_opencv/006939/ch13/cascade/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cwha0212/Opencv_test/cascade/CMakeFiles 0
 .PHONY : CMakeFiles/cascade.dir/rule
 
 # Convenience name for target.

@@ -1,0 +1,3 @@
+/home/cwha0212/Opencv_test/Facedetector/CMakeFiles/rebuild_cache.dir
+/home/cwha0212/Opencv_test/Facedetector/CMakeFiles/edit_cache.dir
+/home/cwha0212/Opencv_test/Facedetector/CMakeFiles/Facedetector.dir

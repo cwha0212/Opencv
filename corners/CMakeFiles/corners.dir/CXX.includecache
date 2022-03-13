@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/cwha0212/Opencv_test/corners/main.cpp
+/home/cwha0212/code/Opencv-C/corners/main.cpp
 opencv2/opencv.hpp
-/home/cwha0212/Opencv_test/corners/opencv2/opencv.hpp
+/home/cwha0212/code/Opencv-C/corners/opencv2/opencv.hpp
 iostream
 -
 
@@ -52,6 +52,12 @@ opencv2/core/ovx.hpp
 
 /usr/local/include/opencv4/opencv2/core/affine.hpp
 opencv2/core.hpp
+-
+
+/usr/local/include/opencv4/opencv2/core/async.hpp
+opencv2/core/mat.hpp
+-
+chrono
 -
 
 /usr/local/include/opencv4/opencv2/core/base.hpp
@@ -123,8 +129,6 @@ immintrin.h
 -
 immintrin.h
 -
-immintrin.h
--
 Intrin.h
 -
 arm_neon.h
@@ -134,6 +138,10 @@ arm_neon.h
 arm_neon.h
 -
 altivec.h
+-
+hal/msa_macros.h
+/usr/local/include/opencv4/opencv2/core/hal/msa_macros.h
+wasm_simd128.h
 -
 emmintrin.h
 -
@@ -151,6 +159,8 @@ altivec.h
 /usr/local/include/opencv4/opencv2/core/cvdef.h
 cvconfig.h
 /usr/local/include/opencv4/opencv2/core/cvconfig.h
+limits
+-
 limits.h
 -
 opencv2/core/hal/interface.h
@@ -197,6 +207,8 @@ complex
 -
 ostream
 -
+sstream
+-
 
 /usr/local/include/opencv4/opencv2/core/cvstd_wrapper.hpp
 opencv2/core/cvdef.h
@@ -211,13 +223,15 @@ type_traits
 /usr/local/include/opencv4/opencv2/core/fast_math.hpp
 opencv2/core/cvdef.h
 /usr/local/include/opencv4/opencv2/core/opencv2/core/cvdef.h
-emmintrin.h
--
 cmath
 -
 fastmath.h
 -
 math.h
+-
+emmintrin.h
+-
+altivec.h
 -
 
 /usr/local/include/opencv4/opencv2/core/hal/interface.h
@@ -229,6 +243,12 @@ stdbool.h
 -
 cstdint
 -
+stdint.h
+-
+
+/usr/local/include/opencv4/opencv2/core/hal/msa_macros.h
+msa.h
+/usr/local/include/opencv4/opencv2/core/hal/msa.h
 stdint.h
 -
 
@@ -279,8 +299,8 @@ opencv2/core/types.hpp
 /usr/local/include/opencv4/opencv2/core/opencv2/core/types.hpp
 opencv2/core/mat.hpp
 /usr/local/include/opencv4/opencv2/core/opencv2/core/mat.hpp
-opencv2/opencv.hpp
-/usr/local/include/opencv4/opencv2/core/opencv2/opencv.hpp
+opencv2/core.hpp
+/usr/local/include/opencv4/opencv2/core/opencv2/core.hpp
 time.h
 -
 
@@ -319,6 +339,18 @@ functional
 -
 mutex
 -
+opencv2/core/utils/instrumentation.hpp
+/usr/local/include/opencv4/opencv2/core/opencv2/core/utils/instrumentation.hpp
+
+/usr/local/include/opencv4/opencv2/core/utils/instrumentation.hpp
+opencv2/core/utility.hpp
+-
+opencv2/core/utils/tls.hpp
+-
+
+/usr/local/include/opencv4/opencv2/core/utils/tls.hpp
+opencv2/core/utility.hpp
+-
 
 /usr/local/include/opencv4/opencv2/core/version.hpp
 
@@ -347,6 +379,8 @@ vector
 -
 opencv2/core.hpp
 -
+opencv2/core/async.hpp
+/usr/local/include/opencv4/opencv2/dnn/opencv2/core/async.hpp
 ../dnn/version.hpp
 /usr/local/include/opencv4/opencv2/dnn/version.hpp
 opencv2/dnn/dict.hpp
@@ -354,6 +388,8 @@ opencv2/dnn/dict.hpp
 opencv2/dnn/layer.hpp
 -
 opencv2/dnn/dnn.inl.hpp
+-
+opencv2/dnn/utils/inference_engine.hpp
 -
 
 /usr/local/include/opencv4/opencv2/dnn/dnn.inl.hpp
@@ -363,6 +399,10 @@ opencv2/dnn.hpp
 /usr/local/include/opencv4/opencv2/dnn/layer.hpp
 opencv2/dnn.hpp
 -
+
+/usr/local/include/opencv4/opencv2/dnn/utils/inference_engine.hpp
+../dnn.hpp
+/usr/local/include/opencv4/opencv2/dnn/dnn.hpp
 
 /usr/local/include/opencv4/opencv2/dnn/version.hpp
 
@@ -489,8 +529,6 @@ dist.h
 /usr/local/include/opencv4/opencv2/flann/flann_base.hpp
 vector
 -
-cassert
--
 cstdio
 -
 general.h
@@ -525,8 +563,6 @@ algorithm
 -
 map
 -
-cassert
--
 limits
 -
 cmath
@@ -553,8 +589,6 @@ saving.h
 /usr/local/include/opencv4/opencv2/flann/index_testing.h
 cstring
 -
-cassert
--
 cmath
 -
 matrix.h
@@ -572,8 +606,6 @@ timer.h
 algorithm
 -
 map
--
-cassert
 -
 cstring
 -
@@ -601,8 +633,6 @@ algorithm
 -
 map
 -
-cassert
--
 cstring
 -
 general.h
@@ -626,8 +656,6 @@ saving.h
 algorithm
 -
 map
--
-cassert
 -
 limits
 -
@@ -670,8 +698,6 @@ defines.h
 
 /usr/local/include/opencv4/opencv2/flann/lsh_index.h
 algorithm
--
-cassert
 -
 cstring
 -
@@ -867,40 +893,12 @@ opencv2/objdetect.hpp
 /usr/local/include/opencv4/opencv2/opencv2/objdetect.hpp
 opencv2/photo.hpp
 /usr/local/include/opencv4/opencv2/opencv2/photo.hpp
-opencv2/shape.hpp
-/usr/local/include/opencv4/opencv2/opencv2/shape.hpp
 opencv2/stitching.hpp
 /usr/local/include/opencv4/opencv2/opencv2/stitching.hpp
-opencv2/superres.hpp
-/usr/local/include/opencv4/opencv2/opencv2/superres.hpp
 opencv2/video.hpp
 /usr/local/include/opencv4/opencv2/opencv2/video.hpp
 opencv2/videoio.hpp
 /usr/local/include/opencv4/opencv2/opencv2/videoio.hpp
-opencv2/videostab.hpp
-/usr/local/include/opencv4/opencv2/opencv2/videostab.hpp
-opencv2/viz.hpp
-/usr/local/include/opencv4/opencv2/opencv2/viz.hpp
-opencv2/cudaarithm.hpp
-/usr/local/include/opencv4/opencv2/opencv2/cudaarithm.hpp
-opencv2/cudabgsegm.hpp
-/usr/local/include/opencv4/opencv2/opencv2/cudabgsegm.hpp
-opencv2/cudacodec.hpp
-/usr/local/include/opencv4/opencv2/opencv2/cudacodec.hpp
-opencv2/cudafeatures2d.hpp
-/usr/local/include/opencv4/opencv2/opencv2/cudafeatures2d.hpp
-opencv2/cudafilters.hpp
-/usr/local/include/opencv4/opencv2/opencv2/cudafilters.hpp
-opencv2/cudaimgproc.hpp
-/usr/local/include/opencv4/opencv2/opencv2/cudaimgproc.hpp
-opencv2/cudaobjdetect.hpp
-/usr/local/include/opencv4/opencv2/opencv2/cudaobjdetect.hpp
-opencv2/cudaoptflow.hpp
-/usr/local/include/opencv4/opencv2/opencv2/cudaoptflow.hpp
-opencv2/cudastereo.hpp
-/usr/local/include/opencv4/opencv2/opencv2/cudastereo.hpp
-opencv2/cudawarping.hpp
-/usr/local/include/opencv4/opencv2/opencv2/cudawarping.hpp
 
 /usr/local/include/opencv4/opencv2/opencv_modules.hpp
 
@@ -1009,6 +1007,8 @@ limits
 /usr/local/include/opencv4/opencv2/stitching/warpers.hpp
 opencv2/stitching/detail/warpers.hpp
 /usr/local/include/opencv4/opencv2/stitching/opencv2/stitching/detail/warpers.hpp
+string
+-
 
 /usr/local/include/opencv4/opencv2/video.hpp
 opencv2/video/tracking.hpp

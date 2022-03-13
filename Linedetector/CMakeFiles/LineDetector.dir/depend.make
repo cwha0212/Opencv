@@ -6,6 +6,7 @@ CMakeFiles/LineDetector.dir/LineDetector.cpp.o: LineDetector.h
 CMakeFiles/LineDetector.dir/LineDetector.cpp.o: /usr/local/include/opencv4/opencv2/calib3d.hpp
 CMakeFiles/LineDetector.dir/LineDetector.cpp.o: /usr/local/include/opencv4/opencv2/core.hpp
 CMakeFiles/LineDetector.dir/LineDetector.cpp.o: /usr/local/include/opencv4/opencv2/core/affine.hpp
+CMakeFiles/LineDetector.dir/LineDetector.cpp.o: /usr/local/include/opencv4/opencv2/core/async.hpp
 CMakeFiles/LineDetector.dir/LineDetector.cpp.o: /usr/local/include/opencv4/opencv2/core/base.hpp
 CMakeFiles/LineDetector.dir/LineDetector.cpp.o: /usr/local/include/opencv4/opencv2/core/bufferpool.hpp
 CMakeFiles/LineDetector.dir/LineDetector.cpp.o: /usr/local/include/opencv4/opencv2/core/check.hpp
@@ -20,6 +21,7 @@ CMakeFiles/LineDetector.dir/LineDetector.cpp.o: /usr/local/include/opencv4/openc
 CMakeFiles/LineDetector.dir/LineDetector.cpp.o: /usr/local/include/opencv4/opencv2/core/cvstd_wrapper.hpp
 CMakeFiles/LineDetector.dir/LineDetector.cpp.o: /usr/local/include/opencv4/opencv2/core/fast_math.hpp
 CMakeFiles/LineDetector.dir/LineDetector.cpp.o: /usr/local/include/opencv4/opencv2/core/hal/interface.h
+CMakeFiles/LineDetector.dir/LineDetector.cpp.o: /usr/local/include/opencv4/opencv2/core/hal/msa_macros.h
 CMakeFiles/LineDetector.dir/LineDetector.cpp.o: /usr/local/include/opencv4/opencv2/core/mat.hpp
 CMakeFiles/LineDetector.dir/LineDetector.cpp.o: /usr/local/include/opencv4/opencv2/core/mat.inl.hpp
 CMakeFiles/LineDetector.dir/LineDetector.cpp.o: /usr/local/include/opencv4/opencv2/core/matx.hpp
@@ -32,6 +34,8 @@ CMakeFiles/LineDetector.dir/LineDetector.cpp.o: /usr/local/include/opencv4/openc
 CMakeFiles/LineDetector.dir/LineDetector.cpp.o: /usr/local/include/opencv4/opencv2/core/traits.hpp
 CMakeFiles/LineDetector.dir/LineDetector.cpp.o: /usr/local/include/opencv4/opencv2/core/types.hpp
 CMakeFiles/LineDetector.dir/LineDetector.cpp.o: /usr/local/include/opencv4/opencv2/core/utility.hpp
+CMakeFiles/LineDetector.dir/LineDetector.cpp.o: /usr/local/include/opencv4/opencv2/core/utils/instrumentation.hpp
+CMakeFiles/LineDetector.dir/LineDetector.cpp.o: /usr/local/include/opencv4/opencv2/core/utils/tls.hpp
 CMakeFiles/LineDetector.dir/LineDetector.cpp.o: /usr/local/include/opencv4/opencv2/core/version.hpp
 CMakeFiles/LineDetector.dir/LineDetector.cpp.o: /usr/local/include/opencv4/opencv2/core/vsx_utils.hpp
 CMakeFiles/LineDetector.dir/LineDetector.cpp.o: /usr/local/include/opencv4/opencv2/dnn.hpp
@@ -39,6 +43,7 @@ CMakeFiles/LineDetector.dir/LineDetector.cpp.o: /usr/local/include/opencv4/openc
 CMakeFiles/LineDetector.dir/LineDetector.cpp.o: /usr/local/include/opencv4/opencv2/dnn/dnn.hpp
 CMakeFiles/LineDetector.dir/LineDetector.cpp.o: /usr/local/include/opencv4/opencv2/dnn/dnn.inl.hpp
 CMakeFiles/LineDetector.dir/LineDetector.cpp.o: /usr/local/include/opencv4/opencv2/dnn/layer.hpp
+CMakeFiles/LineDetector.dir/LineDetector.cpp.o: /usr/local/include/opencv4/opencv2/dnn/utils/inference_engine.hpp
 CMakeFiles/LineDetector.dir/LineDetector.cpp.o: /usr/local/include/opencv4/opencv2/dnn/version.hpp
 CMakeFiles/LineDetector.dir/LineDetector.cpp.o: /usr/local/include/opencv4/opencv2/features2d.hpp
 CMakeFiles/LineDetector.dir/LineDetector.cpp.o: /usr/local/include/opencv4/opencv2/flann.hpp
@@ -106,6 +111,7 @@ CMakeFiles/LineDetector.dir/main.cpp.o: main.cpp
 CMakeFiles/LineDetector.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/calib3d.hpp
 CMakeFiles/LineDetector.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core.hpp
 CMakeFiles/LineDetector.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/affine.hpp
+CMakeFiles/LineDetector.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/async.hpp
 CMakeFiles/LineDetector.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/base.hpp
 CMakeFiles/LineDetector.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/bufferpool.hpp
 CMakeFiles/LineDetector.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/check.hpp
@@ -120,6 +126,7 @@ CMakeFiles/LineDetector.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/
 CMakeFiles/LineDetector.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/cvstd_wrapper.hpp
 CMakeFiles/LineDetector.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/fast_math.hpp
 CMakeFiles/LineDetector.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/hal/interface.h
+CMakeFiles/LineDetector.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/hal/msa_macros.h
 CMakeFiles/LineDetector.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/mat.hpp
 CMakeFiles/LineDetector.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/mat.inl.hpp
 CMakeFiles/LineDetector.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/matx.hpp
@@ -132,6 +139,8 @@ CMakeFiles/LineDetector.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/
 CMakeFiles/LineDetector.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/traits.hpp
 CMakeFiles/LineDetector.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/types.hpp
 CMakeFiles/LineDetector.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/utility.hpp
+CMakeFiles/LineDetector.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/utils/instrumentation.hpp
+CMakeFiles/LineDetector.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/utils/tls.hpp
 CMakeFiles/LineDetector.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/version.hpp
 CMakeFiles/LineDetector.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/vsx_utils.hpp
 CMakeFiles/LineDetector.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/dnn.hpp
@@ -139,6 +148,7 @@ CMakeFiles/LineDetector.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/dnn/d
 CMakeFiles/LineDetector.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/dnn/dnn.hpp
 CMakeFiles/LineDetector.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/dnn/dnn.inl.hpp
 CMakeFiles/LineDetector.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/dnn/layer.hpp
+CMakeFiles/LineDetector.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/dnn/utils/inference_engine.hpp
 CMakeFiles/LineDetector.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/dnn/version.hpp
 CMakeFiles/LineDetector.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/features2d.hpp
 CMakeFiles/LineDetector.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/flann.hpp

@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/cwha0212/Opencv_test/Linedetector/LineDetector.cpp" "/home/cwha0212/Opencv_test/Linedetector/CMakeFiles/LineDetector.dir/LineDetector.cpp.o"
-  "/home/cwha0212/Opencv_test/Linedetector/main.cpp" "/home/cwha0212/Opencv_test/Linedetector/CMakeFiles/LineDetector.dir/main.cpp.o"
+  "/home/cwha0212/code/Opencv-C/Linedetector/LineDetector.cpp" "/home/cwha0212/code/Opencv-C/Linedetector/CMakeFiles/LineDetector.dir/LineDetector.cpp.o"
+  "/home/cwha0212/code/Opencv-C/Linedetector/main.cpp" "/home/cwha0212/code/Opencv-C/Linedetector/CMakeFiles/LineDetector.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

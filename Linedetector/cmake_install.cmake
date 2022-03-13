@@ -1,4 +1,4 @@
-# Install script for directory: /home/cwha0212/Opencv_test/Linedetector
+# Install script for directory: /home/cwha0212/code/Opencv-C/Linedetector
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/cwha0212/Opencv_test/Linedetector/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/cwha0212/code/Opencv-C/Linedetector/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

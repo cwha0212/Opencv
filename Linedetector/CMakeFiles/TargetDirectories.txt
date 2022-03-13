@@ -1,3 +1,3 @@
-/home/cwha0212/Opencv_test/Linedetector/CMakeFiles/rebuild_cache.dir
-/home/cwha0212/Opencv_test/Linedetector/CMakeFiles/edit_cache.dir
-/home/cwha0212/Opencv_test/Linedetector/CMakeFiles/LineDetector.dir
+/home/cwha0212/code/Opencv-C/Linedetector/CMakeFiles/rebuild_cache.dir
+/home/cwha0212/code/Opencv-C/Linedetector/CMakeFiles/edit_cache.dir
+/home/cwha0212/code/Opencv-C/Linedetector/CMakeFiles/LineDetector.dir

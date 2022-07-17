@@ -3,25 +3,25 @@
 ## HelloCV
 - First practice file of open cv!
 - Simple code to print "Hello OpenCV4.0.0" and picture
-##Perspective
+## Perspective
 - Choose corner of card, then code make it right position
-##Morphology
+## Morphology
 - Binary, erode, dilate image
-##Hough
+## Hough
 - Hough line detecting
-##Canny
+## Canny
 - Cannt edge detecting
-##Cascade
+## Cascade
 - Detect face and eyes from image. It needs haarcasacade file(.xml)
-##Corners
+## Corners
 - Detect corner from image
 - Harris and Fast is used
-##Linedetector
+## Linedetector
 - This code is not in book. I find from internet
 - Detecting line and print direction that car have to go
-##Facedetector
+## Facedetector
 - Find face from image.
 - It needs trained files(.caffemodel or .prototxt)
-#Facedetectorplus
+# Facedetectorplus
 - It's not done yet
 - Find face, save data, train images, detect my face.
